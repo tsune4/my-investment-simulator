@@ -9,5 +9,9 @@ export default defineNuxtConfig({
   // グローバルCSSファイルを指定（Tailwindのベーススタイルを読み込むため）
   css: [
     '~/assets/css/main.css'
-  ]
+  ],
+  // アプリケーションのベースURLを設定
+  app: {
+    baseURL: '/my-investment-simulator/', 
+  }
 })
