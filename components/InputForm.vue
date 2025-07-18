@@ -66,7 +66,7 @@ const emit = defineEmits(['calculate']);
 // 入力項目のリアクティブな変数 - 初期値を設定
 const currentAmount = ref(0);   // 現状資産額（デフォルト0万円）
 const monthlyDeposit = ref(3);  // 毎月の積立額（デフォルト3万円）
-const annualYield = ref(3);     // 想定利回り（デフォルト3%）
+const annualYield = ref(5);     // 想定利回り（デフォルト5%）
 const period = ref(20);         // 積立期間（デフォルト20年）
 
 const emitCalculation = () => {
